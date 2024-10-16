@@ -5,10 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MadhuSudhana Makireddy | Portfolio</title>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <div class="theme-toggle">
+        <i class="fas fa-sun"></i>
+    </div>
+    
     <nav class="navbar">
         <div class="container">
             <h1 class="logo">Madhu<span>Makireddy</span></h1>
@@ -24,45 +28,50 @@
 
     <section id="home" class="hero">
         <div class="container">
-            <h2>Hello, I’m</h2>
+            <h2>Hi, I'm</h2>
             <h1>MadhuSudhana Makireddy</h1>
-            <p>Junior Software Developer | Cloud Enthusiast | Problem Solver</p>
-            <a href="#contact" class="btn">Hire Me</a>
+            <p>Cloud Developer | Data Enthusiast | Innovator</p>
+            <a href="#contact" class="btn">Contact Me</a>
         </div>
     </section>
 
     <section id="about" class="about">
         <div class="container">
             <h2>About Me</h2>
-            <p>I am a highly motivated software developer with expertise in Python, AWS, and backend optimization. My passion lies in solving complex problems, creating scalable systems, and collaborating with cross-functional teams. I also have a deep interest in blockchain technology, decentralized systems, and AR game development.</p>
+            <p>I have over 2 years of experience building web applications, optimizing backend systems, and creating scalable cloud pipelines using Python and AWS. I am passionate about solving complex problems and collaborating with talented teams to deliver outstanding solutions.</p>
         </div>
     </section>
 
     <section id="experience" class="experience">
         <div class="container">
             <h2>Professional Experience</h2>
-            <div class="job">
-                <h3>Clover Soft LLC</h3>
-                <p>March 2022 – Present | Jr. Software Developer</p>
-                <ul>
-                    <li>Developed predictive models, improving drug-disease analysis by 68.9%.</li>
-                    <li>Collaborated with data engineers for cross-platform data usability.</li>
-                    <li>Enhanced CI/CD pipelines for seamless deployments using Jenkins.</li>
-                </ul>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h3>Clover Soft LLC</h3>
+                    <p>March 2022 – Present | Jr. Software Developer</p>
+                    <p>Developed predictive models and improved deployment efficiency by 50%.</p>
+                </div>
+                <div class="timeline-item">
+                    <h3>Acme Corp</h3>
+                    <p>March 2022 – June 2023 | Backend Developer</p>
+                    <p>Enhanced system reliability and reduced query time by 45%.</p>
+                </div>
             </div>
         </div>
     </section>
 
     <section id="projects" class="projects">
         <div class="container">
-            <h2>Key Projects</h2>
-            <div class="project-card">
-                <h3>Blockchain Lending Platform</h3>
-                <p>Developed a peer-to-peer lending platform on Ethereum, eliminating intermediaries.</p>
-            </div>
-            <div class="project-card">
-                <h3>Web-based Game Development</h3>
-                <p>Created interactive 3D browser games using WebGL with smooth animations.</p>
+            <h2>Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <h3>Blockchain Lending Platform</h3>
+                    <p>Built a decentralized lending platform using Ethereum.</p>
+                </div>
+                <div class="project-card">
+                    <h3>WebGL Game Development</h3>
+                    <p>Created a 3D browser game with immersive gameplay.</p>
+                </div>
             </div>
         </div>
     </section>
@@ -70,17 +79,19 @@
     <section id="contact" class="contact">
         <div class="container">
             <h2>Contact Me</h2>
-            <p>Email: <a href="mailto:madhumakireddy01@gmail.com">madhumakireddy01@gmail.com</a></p>
-            <p>Phone: <a href="tel:+18574925879">+1 857-492-5879</a></p>
-            <p>
-                <a href="https://linkedin.com/in/madhu-makireddy-769649329" target="_blank"><i class="fab fa-linkedin"></i></a>
-                <a href="https://github.com/madhumakireddy" target="_blank"><i class="fab fa-github"></i></a>
-            </p>
+            <form action="https://formspree.io/f/my-form" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
         </div>
     </section>
 
     <footer>
         <p>&copy; 2024 MadhuSudhana Makireddy. All Rights Reserved.</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>

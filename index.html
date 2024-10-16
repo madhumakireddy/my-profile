@@ -5,58 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MadhuSudhana Makireddy | Portfolio</title>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="theme-toggle">
-        <i class="fas fa-sun"></i>
-    </div>
-
     <nav class="navbar">
         <div class="container">
             <h1 class="logo">Madhu<span>Makireddy</span></h1>
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
     </nav>
 
-    <section id="home" class="hero">
-        <canvas id="3d-canvas"></canvas>
-        <div class="hero-text">
-            <h1>Welcome to My World</h1>
-            <p>Cloud Developer | Problem Solver | Blockchain Enthusiast</p>
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <h2>Hello, I'm</h2>
+            <h1 class="glow-text">MadhuSudhana Makireddy</h1>
+            <p>Innovating with Code | Cloud Developer | Creative Problem Solver</p>
+            <a href="#contact" class="cta-button">Let’s Connect</a>
         </div>
-    </section>
+    </header>
 
     <section id="about" class="about">
         <div class="container">
             <h2>About Me</h2>
-            <p>I create powerful applications by combining cutting-edge technology with creativity. My expertise spans cloud development, data pipelines, and blockchain solutions.</p>
+            <p>I create impactful software solutions that solve real-world problems. With a focus on cloud technology, backend optimization, and data pipelines, I love working on complex systems to make them efficient and innovative.</p>
         </div>
     </section>
 
     <section id="projects" class="projects">
         <div class="container">
-            <h2>Highlighted Projects</h2>
-            <div class="project-grid">
-                <div class="project-card">
-                    <h3>3D Blockchain Explorer</h3>
-                    <p>Visualized blockchain data in real-time with Three.js.</p>
+            <h2>My Projects</h2>
+            <div class="project-list">
+                <div class="project-item">
+                    <h3>Blockchain Visualizer</h3>
+                    <p>Built a blockchain explorer with real-time visualizations.</p>
                 </div>
-                <div class="project-card">
-                    <h3>AI Data Pipelines</h3>
-                    <p>Built cloud pipelines that process large datasets using AWS Lambda.</p>
+                <div class="project-item">
+                    <h3>AI-Powered Cloud Pipelines</h3>
+                    <p>Created automated pipelines on AWS to process large datasets.</p>
                 </div>
-                <div class="project-card">
+                <div class="project-item">
                     <h3>AR Game Engine</h3>
-                    <p>Developed immersive AR games using WebGL technology.</p>
+                    <p>Designed an interactive AR game engine with WebGL.</p>
                 </div>
             </div>
         </div>
@@ -69,7 +63,7 @@
                 <input type="text" name="name" placeholder="Your Name" required>
                 <input type="email" name="email" placeholder="Your Email" required>
                 <textarea name="message" placeholder="Your Message" required></textarea>
-                <button type="submit" class="btn">Send Message</button>
+                <button type="submit" class="cta-button">Send Message</button>
             </form>
         </div>
     </section>
@@ -77,7 +71,5 @@
     <footer>
         <p>&copy; 2024 MadhuSudhana Makireddy. All Rights Reserved.</p>
     </footer>
-
-    <script src="script.js"></script>
 </body>
 </html>

@@ -6,13 +6,14 @@
     <title>MadhuSudhana Makireddy | Portfolio</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
 </head>
 <body>
     <div class="theme-toggle">
         <i class="fas fa-sun"></i>
     </div>
-    
+
     <nav class="navbar">
         <div class="container">
             <h1 class="logo">Madhu<span>Makireddy</span></h1>
@@ -27,50 +28,35 @@
     </nav>
 
     <section id="home" class="hero">
-        <div class="container">
-            <h2>Hi, I'm</h2>
-            <h1>MadhuSudhana Makireddy</h1>
-            <p>Cloud Developer | Data Enthusiast | Innovator</p>
-            <a href="#contact" class="btn">Contact Me</a>
+        <canvas id="3d-canvas"></canvas>
+        <div class="hero-text">
+            <h1>Welcome to My World</h1>
+            <p>Cloud Developer | Problem Solver | Blockchain Enthusiast</p>
         </div>
     </section>
 
     <section id="about" class="about">
         <div class="container">
             <h2>About Me</h2>
-            <p>I have over 2 years of experience building web applications, optimizing backend systems, and creating scalable cloud pipelines using Python and AWS. I am passionate about solving complex problems and collaborating with talented teams to deliver outstanding solutions.</p>
-        </div>
-    </section>
-
-    <section id="experience" class="experience">
-        <div class="container">
-            <h2>Professional Experience</h2>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <h3>Clover Soft LLC</h3>
-                    <p>March 2022 – Present | Jr. Software Developer</p>
-                    <p>Developed predictive models and improved deployment efficiency by 50%.</p>
-                </div>
-                <div class="timeline-item">
-                    <h3>Acme Corp</h3>
-                    <p>March 2022 – June 2023 | Backend Developer</p>
-                    <p>Enhanced system reliability and reduced query time by 45%.</p>
-                </div>
-            </div>
+            <p>I create powerful applications by combining cutting-edge technology with creativity. My expertise spans cloud development, data pipelines, and blockchain solutions.</p>
         </div>
     </section>
 
     <section id="projects" class="projects">
         <div class="container">
-            <h2>Projects</h2>
+            <h2>Highlighted Projects</h2>
             <div class="project-grid">
                 <div class="project-card">
-                    <h3>Blockchain Lending Platform</h3>
-                    <p>Built a decentralized lending platform using Ethereum.</p>
+                    <h3>3D Blockchain Explorer</h3>
+                    <p>Visualized blockchain data in real-time with Three.js.</p>
                 </div>
                 <div class="project-card">
-                    <h3>WebGL Game Development</h3>
-                    <p>Created a 3D browser game with immersive gameplay.</p>
+                    <h3>AI Data Pipelines</h3>
+                    <p>Built cloud pipelines that process large datasets using AWS Lambda.</p>
+                </div>
+                <div class="project-card">
+                    <h3>AR Game Engine</h3>
+                    <p>Developed immersive AR games using WebGL technology.</p>
                 </div>
             </div>
         </div>
